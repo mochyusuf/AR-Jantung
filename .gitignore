@@ -1,0 +1,11 @@
+﻿.vs
+Library
+Build
+obj
+*.png
+*.obj
+*.bin
+*.dae
+*.asset
+*.glb
+*.fbx
