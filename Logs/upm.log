@@ -1,248 +1,344 @@
-[2026-10-29T06:46:23.853Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 23292 --ipc-path Unity-Upm-23292 -l 2 --log-file 'D:\\Portofolio\\AR Jantung/Logs/upm.log'
-[2026-10-29T06:46:23.925Z][INFO] IPC server started (IPC path=Unity-Upm-23292).
-[2026-10-29T06:46:23.925Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-23292.
-[2026-10-29T06:48:27.875Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:37:03.376Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 26908 --ipc-path Unity-Upm-26908 -l 2 --log-file 'D:\\Portofolio\\AR Jantung/Logs/upm.log'
+[2026-10-29T09:37:03.437Z][INFO] IPC server started (IPC path=Unity-Upm-26908).
+[2026-10-29T09:37:03.437Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-26908.
+[2026-10-29T09:37:05.872Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:48:27.882Z][INFO] project:list-packages --> 404 (7 ms)
-[2026-10-29T06:48:29.646Z][INFO] config:project:get-registries <-- Request received
+[2026-10-29T09:37:06.111Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-29T06:48:29.648Z][INFO] config:project:get-registries --> 404 (2 ms)
-[2026-10-29T06:48:29.671Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:37:06.136Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:48:29.673Z][INFO] project:list-packages --> 404 (2 ms)
-[2026-10-29T06:48:36.060Z][INFO] project:update-dependencies <-- Request received
+[2026-10-29T09:37:06.157Z][INFO] project:list-packages --> 200 (285 ms)
+[2026-10-29T09:37:06.162Z][INFO] config:project:get-registries --> 200 (51 ms)
+[2026-10-29T09:37:06.371Z][INFO] project:list-packages --> 200 (235 ms)
+[2026-10-29T09:38:21.248Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:48:36.197Z][INFO] project:update-dependencies --> 200 (137 ms)
-[2026-10-29T06:48:36.224Z][INFO] project:resolve-packages <-- Request received
+[2026-10-29T09:38:21.290Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:48:36.933Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.97] from registry 'https://packages.unity.com'
-[2026-10-29T06:48:38.884Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.97] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 1.9s)
-[2026-10-29T06:49:23.643Z][WARN] Requested version [1.12.5] for package [com.unity.services.core] overridden by minimum version [1.18.0].
-[2026-10-29T06:49:23.643Z][WARN] Requested version [1.0.4] for package [com.unity.services.analytics] overridden by minimum version [6.3.0].
-[2026-10-29T06:49:23.646Z][INFO] project:resolve-packages --> 200 (47422 ms)
-[2026-10-29T06:50:09.310Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:38:21.373Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-29T06:50:09.520Z][INFO] project:list-packages --> 200 (210 ms)
-[2026-10-29T06:50:09.632Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:38:21.402Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:50:09.821Z][INFO] project:list-packages --> 200 (190 ms)
-[2026-10-29T06:50:09.880Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:38:21.412Z][INFO] config:project:get-registries --> 200 (39 ms)
+[2026-10-29T09:38:21.649Z][INFO] project:list-packages --> 200 (401 ms)
+[2026-10-29T09:38:21.685Z][INFO] project:list-packages --> 200 (395 ms)
+[2026-10-29T09:38:21.772Z][INFO] project:list-packages --> 200 (370 ms)
+[2026-10-29T09:38:25.657Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:50:10.064Z][INFO] project:list-packages --> 200 (184 ms)
-[2026-10-29T06:50:10.650Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:38:30.172Z][INFO] project:list-packages --> 200 (4515 ms)
+[2026-10-29T09:39:02.216Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:50:10.805Z][INFO] project:list-packages --> 200 (155 ms)
-[2026-10-29T06:50:10.922Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:39:02.374Z][INFO] project:list-packages --> 200 (157 ms)
+[2026-10-29T09:39:02.444Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:50:11.075Z][INFO] project:list-packages --> 200 (153 ms)
-[2026-10-29T06:50:11.169Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:39:02.583Z][INFO] project:list-packages --> 200 (139 ms)
+[2026-10-29T09:39:02.675Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-29T06:50:11.316Z][INFO] project:list-packages --> 200 (147 ms)
-[2026-10-29T06:51:12.979Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:39:02.680Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-10-29T09:39:29.262Z][INFO] packages:get-all-packageinfo <-- Request received
 params: {}
-[2026-10-29T06:51:13.140Z][INFO] project:list-packages --> 200 (160 ms)
-[2026-10-29T06:51:13.364Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:39:29.273Z][INFO] packages:get-all-packageinfo <-- Request received
 params: {}
-[2026-10-29T06:51:13.543Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:39:29.287Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:51:13.552Z][INFO] project:list-packages --> 200 (188 ms)
-[2026-10-29T06:51:13.570Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:51:13.725Z][INFO] project:list-packages --> 200 (181 ms)
-[2026-10-29T06:51:13.966Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-10-29T06:51:13.971Z][INFO] config:project:get-registries --> 200 (5 ms)
-[2026-10-29T06:51:17.756Z][INFO] project:list-packages --> 200 (4186 ms)
-[2026-10-29T06:52:59.754Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:52:59.978Z][INFO] project:list-packages --> 200 (224 ms)
-[2026-10-29T06:53:02.013Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:53:02.033Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:53:02.573Z][INFO] project:list-packages --> 200 (559 ms)
-[2026-10-29T06:53:02.574Z][INFO] project:list-packages --> 200 (541 ms)
-[2026-10-29T06:53:03.174Z][INFO] packages:get-all-packageinfo <-- Request received
-params: {}
-[2026-10-29T06:53:03.233Z][INFO] packages:get-all-packageinfo <-- Request received
-params: {}
-[2026-10-29T06:53:03.254Z][INFO] packages:get-all-packageinfo <-- Request received
-params: {}
-[2026-10-29T06:53:05.092Z][INFO] packages:get-all-packageinfo --> 200 (1838 ms)
-[2026-10-29T06:53:11.823Z][INFO] packages:get-all-packageinfo --> 200 (8649 ms)
-[2026-10-29T06:53:11.828Z][INFO] packages:get-all-packageinfo --> 200 (8595 ms)
-[2026-10-29T06:59:36.183Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:29.856Z][INFO] packages:get-all-packageinfo --> 200 (583 ms)
+[2026-10-29T09:39:30.132Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.addressables@2.11.2"
 }
-[2026-10-29T06:59:36.205Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.147Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.ads.ios-support@1.0.1"
 }
-[2026-10-29T06:59:36.214Z][INFO] packages:get-packageinfo <-- Request received
-params: {
-  "packageId": "com.unity.project-auditor-rules@1.0.3"
-}
-[2026-10-29T06:59:36.231Z][INFO] packages:get-packageinfo <-- Request received
-params: {
-  "packageId": "com.unity.scriptablebuildpipeline@3.0.3"
-}
-[2026-10-29T06:59:36.247Z][INFO] packages:get-packageinfo <-- Request received
-params: {
-  "packageId": "com.unity.services.friends@1.1.1"
-}
-[2026-10-29T06:59:37.266Z][INFO] packages:get-packageinfo --> 200 (1052 ms)
-[2026-10-29T06:59:37.271Z][INFO] packages:get-packageinfo --> 200 (1040 ms)
-[2026-10-29T06:59:37.283Z][INFO] packages:get-packageinfo --> 200 (1101 ms)
-[2026-10-29T06:59:37.289Z][INFO] packages:get-packageinfo --> 200 (1042 ms)
-[2026-10-29T06:59:37.302Z][INFO] packages:get-packageinfo --> 200 (1097 ms)
-[2026-10-29T06:59:37.304Z][INFO] packages:get-all-packageinfo <-- Request received
-params: {}
-[2026-10-29T06:59:37.319Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:59:37.331Z][INFO] packages:get-all-packageinfo <-- Request received
-params: {}
-[2026-10-29T06:59:37.347Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:59:37.376Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:59:37.593Z][INFO] packages:get-packageinfo <-- Request received
-params: {
-  "packageId": "com.unity.services.moderation@1.0.2"
-}
-[2026-10-29T06:59:37.604Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.158Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.memoryprofiler@1.1.12"
 }
-[2026-10-29T06:59:37.619Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.169Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.mobile.notifications@2.4.3"
 }
-[2026-10-29T06:59:37.635Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.179Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.polyspatial.extensions@3.2.2"
 }
-[2026-10-29T06:59:37.653Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.191Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.polyspatial.visionos@3.2.2"
 }
-[2026-10-29T06:59:37.698Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.206Z][INFO] packages:get-packageinfo <-- Request received
 params: {
-  "packageId": "com.unity.services.levelplay@9.5.1"
+  "packageId": "com.unity.project-auditor-rules@1.0.3"
 }
-[2026-10-29T06:59:37.714Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.220Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.scriptablebuildpipeline@3.0.3"
+}
+[2026-10-29T09:39:30.230Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.friends@1.1.1"
+}
+[2026-10-29T09:39:30.245Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.unity.services.moderation@1.0.2"
+}
+[2026-10-29T09:39:30.255Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.services.multiplayer@2.3.3"
 }
-[2026-10-29T06:59:37.738Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.270Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.web.stripping-tool@1.3.0"
 }
-[2026-10-29T06:59:37.754Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.284Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.androidxr-openxr@1.4.2"
 }
-[2026-10-29T06:59:37.766Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.296Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.arcore@6.6.2"
 }
-[2026-10-29T06:59:37.781Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.309Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.arfoundation@6.6.2"
 }
-[2026-10-29T06:59:37.800Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.321Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.arkit@6.6.2"
 }
-[2026-10-29T06:59:37.800Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.335Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.compositionlayers@2.5.0"
 }
-[2026-10-29T06:59:37.823Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.348Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.hands@1.9.0"
 }
-[2026-10-29T06:59:37.842Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.363Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.interaction.toolkit@3.6.1"
 }
-[2026-10-29T06:59:37.843Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-10-29T06:59:37.881Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:30.377Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.openxr@1.18.0"
 }
-[2026-10-29T06:59:37.881Z][INFO] packages:get-packageinfo <-- Request received
+[2026-10-29T09:39:36.612Z][INFO] packages:get-all-packageinfo <-- Request received
+params: {}
+[2026-10-29T09:39:36.627Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:39:36.779Z][INFO] project:list-packages --> 200 (152 ms)
+[2026-10-29T09:39:47.862Z][INFO] packages:get-all-packageinfo --> 504 (11250 ms)
+[2026-10-29T09:39:47.875Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:39:47.879Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:39:47.895Z][INFO] packages:get-all-packageinfo --> 504 (18633 ms)
+[2026-10-29T09:39:47.896Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:39:47.919Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:39:47.927Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:39:47.937Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:39:47.944Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:39:47.970Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ECONNRESET). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.912Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.913Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.914Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.927Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.928Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.958Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.975Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.976Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:08.977Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:09.022Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-10-29T09:40:24.404Z][INFO] packages:get-packageinfo --> 200 (54246 ms)
+[2026-10-29T09:40:24.411Z][INFO] packages:get-packageinfo --> 200 (54242 ms)
+[2026-10-29T09:40:24.428Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.unity.xr.visionos@3.2.2"
 }
-[2026-10-29T06:59:38.452Z][INFO] packages:get-packageinfo --> 200 (860 ms)
-[2026-10-29T06:59:38.660Z][INFO] packages:get-packageinfo --> 200 (1056 ms)
-[2026-10-29T06:59:38.723Z][INFO] packages:get-packageinfo --> 200 (1104 ms)
-[2026-10-29T06:59:38.724Z][INFO] packages:get-packageinfo --> 200 (1089 ms)
-[2026-10-29T06:59:38.813Z][INFO] packages:get-packageinfo --> 200 (1160 ms)
-[2026-10-29T06:59:38.889Z][INFO] packages:get-packageinfo --> 200 (1191 ms)
-[2026-10-29T06:59:38.906Z][INFO] packages:get-packageinfo --> 200 (1064 ms)
-[2026-10-29T06:59:38.915Z][INFO] packages:get-packageinfo --> 200 (1161 ms)
-[2026-10-29T06:59:38.969Z][INFO] packages:get-packageinfo --> 200 (1255 ms)
-[2026-10-29T06:59:39.040Z][INFO] packages:get-packageinfo --> 200 (1273 ms)
-[2026-10-29T06:59:39.605Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:40:24.485Z][INFO] packages:get-packageinfo --> 200 (54108 ms)
+[2026-10-29T09:40:24.488Z][INFO] packages:get-packageinfo --> 200 (54268 ms)
+[2026-10-29T09:40:24.535Z][INFO] packages:get-packageinfo --> 200 (54403 ms)
+[2026-10-29T09:40:24.537Z][INFO] packages:get-packageinfo --> 200 (54189 ms)
+[2026-10-29T09:40:24.538Z][INFO] packages:get-packageinfo --> 200 (54332 ms)
+[2026-10-29T09:40:24.543Z][INFO] packages:get-packageinfo --> 200 (54247 ms)
+[2026-10-29T09:40:24.548Z][INFO] packages:get-packageinfo --> 200 (54240 ms)
+[2026-10-29T09:40:24.573Z][INFO] packages:get-packageinfo --> 200 (54253 ms)
+[2026-10-29T09:40:24.770Z][INFO] packages:get-packageinfo --> 200 (54540 ms)
+[2026-10-29T09:40:24.774Z][INFO] packages:get-packageinfo --> 200 (54519 ms)
+[2026-10-29T09:40:24.795Z][INFO] packages:get-packageinfo --> 200 (54604 ms)
+[2026-10-29T09:40:24.798Z][INFO] packages:get-packageinfo --> 200 (54435 ms)
+[2026-10-29T09:40:24.799Z][INFO] packages:get-packageinfo --> 200 (54554 ms)
+[2026-10-29T09:40:24.801Z][INFO] packages:get-packageinfo --> 200 (54517 ms)
+[2026-10-29T09:40:24.826Z][INFO] packages:get-packageinfo --> 200 (54679 ms)
+[2026-10-29T09:40:24.839Z][INFO] packages:get-packageinfo --> 200 (54660 ms)
+[2026-10-29T09:40:25.010Z][INFO] packages:get-packageinfo --> 200 (54740 ms)
+[2026-10-29T09:40:25.060Z][INFO] packages:get-packageinfo --> 200 (54725 ms)
+[2026-10-29T09:40:25.496Z][INFO] packages:get-packageinfo --> 200 (1068 ms)
+[2026-10-29T09:40:26.558Z][INFO] project:list-packages --> 200 (57271 ms)
+[2026-10-29T09:43:26.766Z][INFO] packages:get-all-packageinfo <-- Request received
 params: {}
-[2026-10-29T06:59:39.651Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:43:26.790Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T06:59:40.620Z][INFO] packages:get-packageinfo --> 200 (2820 ms)
-[2026-10-29T06:59:40.623Z][INFO] packages:get-packageinfo --> 200 (2885 ms)
-[2026-10-29T06:59:40.642Z][INFO] packages:get-packageinfo --> 200 (2861 ms)
-[2026-10-29T06:59:40.655Z][INFO] packages:get-packageinfo --> 200 (2773 ms)
-[2026-10-29T06:59:40.669Z][INFO] packages:get-packageinfo --> 200 (2869 ms)
-[2026-10-29T06:59:41.021Z][INFO] packages:get-packageinfo --> 200 (3140 ms)
-[2026-10-29T06:59:41.544Z][INFO] packages:get-packageinfo --> 200 (3721 ms)
-[2026-10-29T06:59:43.239Z][INFO] project:list-packages --> 200 (3634 ms)
-[2026-10-29T06:59:43.240Z][INFO] project:list-packages --> 200 (5864 ms)
-[2026-10-29T06:59:43.242Z][INFO] project:list-packages --> 200 (5923 ms)
-[2026-10-29T06:59:43.280Z][INFO] packages:get-all-packageinfo --> 200 (5976 ms)
-[2026-10-29T06:59:43.286Z][INFO] packages:get-all-packageinfo --> 200 (5955 ms)
-[2026-10-29T06:59:43.303Z][INFO] project:list-packages --> 200 (5460 ms)
-[2026-10-29T06:59:43.305Z][INFO] project:list-packages --> 200 (5957 ms)
-[2026-10-29T06:59:43.306Z][INFO] project:list-packages --> 200 (3655 ms)
-[2026-10-29T06:59:46.547Z][INFO] project:add-remove-dependencies <-- Request received
+[2026-10-29T09:43:32.421Z][INFO] packages:get-all-packageinfo --> 200 (5655 ms)
+[2026-10-29T09:43:32.828Z][INFO] project:list-packages --> 200 (6038 ms)
+[2026-10-29T09:43:57.258Z][INFO] project:add-remove-dependencies <-- Request received
 params: {}
-[2026-10-29T06:59:48.018Z][INFO] Downloading package [com.unity.purchasing@5.4.4] from registry 'https://packages.unity.com'
-[2026-10-29T06:59:48.019Z][INFO] Downloading package [com.unity.services.deployment@1.7.2] from registry 'https://packages.unity.com'
-[2026-10-29T06:59:48.021Z][INFO] Downloading package [com.unity.services.deployment.api@1.1.3] from registry 'https://packages.unity.com'
-[2026-10-29T06:59:48.551Z][INFO] Finished downloading package [com.unity.services.deployment.api@1.1.3] from registry 'https://packages.unity.com' (size: 27.1 kB, time: 530ms)
-[2026-10-29T06:59:48.692Z][INFO] Finished downloading package [com.unity.services.deployment@1.7.2] from registry 'https://packages.unity.com' (size: 215 kB, time: 673ms)
-[2026-10-29T06:59:49.966Z][INFO] Finished downloading package [com.unity.purchasing@5.4.4] from registry 'https://packages.unity.com' (size: 2.05 MB, time: 1.9s)
-[2026-10-29T07:00:51.194Z][INFO] project:add-remove-dependencies --> 200 (64647 ms)
-[2026-10-29T07:00:51.564Z][INFO] project:add-remove-dependencies <-- Request received
+[2026-10-29T09:43:58.571Z][INFO] Downloading package [com.unity.inputsystem@1.20.1] from registry 'https://packages.unity.com'
+[2026-10-29T09:44:12.467Z][INFO] Finished downloading package [com.unity.inputsystem@1.20.1] from registry 'https://packages.unity.com' (size: 14.7 MB, time: 13.8s)
+[2026-10-29T09:44:24.520Z][INFO] project:add-remove-dependencies --> 200 (27262 ms)
+[2026-10-29T09:44:24.677Z][INFO] project:add-remove-dependencies <-- Request received
 params: {}
-[2026-10-29T07:00:52.745Z][INFO] project:add-remove-dependencies --> 200 (1181 ms)
-[2026-10-29T07:00:53.042Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:44:25.707Z][INFO] project:add-remove-dependencies --> 200 (1030 ms)
+[2026-10-29T09:44:25.886Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T07:00:53.145Z][INFO] project:resolve-packages <-- Request received
+[2026-10-29T09:44:25.950Z][INFO] project:resolve-packages <-- Request received
 params: {}
-[2026-10-29T07:00:53.410Z][INFO] project:list-packages --> 200 (368 ms)
-[2026-10-29T07:00:53.820Z][WARN] Requested version [1.0.4] for package [com.unity.services.analytics] overridden by minimum version [6.3.0].
-[2026-10-29T07:00:53.820Z][WARN] Requested version [1.1.2] for package [com.unity.services.deployment.api] overridden by minimum version [1.1.3].
-[2026-10-29T07:00:53.822Z][INFO] project:resolve-packages --> 200 (677 ms)
-[2026-10-29T07:00:53.964Z][INFO] config:project:get-registries <-- Request received
+[2026-10-29T09:44:26.137Z][INFO] project:list-packages --> 200 (251 ms)
+[2026-10-29T09:44:26.431Z][WARN] Requested version [1.0.4] for package [com.unity.services.analytics] overridden by minimum version [6.3.0].
+[2026-10-29T09:44:26.431Z][WARN] Requested version [1.1.2] for package [com.unity.services.deployment.api] overridden by minimum version [1.1.3].
+[2026-10-29T09:44:26.433Z][INFO] project:resolve-packages --> 200 (484 ms)
+[2026-10-29T09:44:26.537Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-29T07:00:53.974Z][INFO] config:project:get-registries --> 200 (9 ms)
-[2026-10-29T07:00:53.979Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:44:26.544Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-10-29T09:44:26.547Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T07:00:54.275Z][INFO] project:list-packages --> 200 (296 ms)
-[2026-10-29T07:01:38.327Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:44:26.764Z][INFO] project:list-packages --> 200 (217 ms)
+[2026-10-29T09:44:40.756Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T07:01:38.460Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:44:40.814Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T07:01:38.691Z][INFO] project:list-packages --> 200 (363 ms)
-[2026-10-29T07:01:38.693Z][INFO] project:list-packages --> 200 (233 ms)
-[2026-10-29T07:01:38.786Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:44:41.077Z][INFO] project:list-packages --> 200 (321 ms)
+[2026-10-29T09:44:41.119Z][INFO] project:list-packages --> 200 (305 ms)
+[2026-10-29T09:44:41.197Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T07:01:38.967Z][INFO] project:list-packages --> 200 (181 ms)
-[2026-10-29T07:01:39.097Z][INFO] config:project:get-registries <-- Request received
+[2026-10-29T09:44:41.439Z][INFO] project:list-packages --> 200 (242 ms)
+[2026-10-29T09:44:41.454Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-10-29T07:01:39.103Z][INFO] config:project:get-registries --> 200 (6 ms)
-[2026-10-29T07:01:44.140Z][INFO] project:list-packages <-- Request received
+[2026-10-29T09:44:41.461Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-10-29T09:44:44.923Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-10-29T07:01:44.343Z][INFO] project:list-packages --> 200 (203 ms)
+[2026-10-29T09:44:45.126Z][INFO] project:list-packages --> 200 (203 ms)
+[2026-10-29T09:50:00.520Z][INFO] tarball:extract <-- Request received
+params: {}
+[2026-10-29T09:50:01.961Z][INFO] tarball:extract --> 200 (1441 ms)
+[2026-10-29T09:50:12.110Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:12.306Z][INFO] project:list-packages --> 200 (196 ms)
+[2026-10-29T09:50:31.655Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:31.884Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-29T09:50:31.892Z][INFO] config:project:get-registries --> 200 (8 ms)
+[2026-10-29T09:50:33.172Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-10-29T09:50:33.298Z][INFO] project:list-packages --> 200 (1643 ms)
+[2026-10-29T09:50:47.428Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:47.796Z][WARN] Requested version [1.0.4] for package [com.unity.services.analytics] overridden by minimum version [6.3.0].
+[2026-10-29T09:50:47.797Z][WARN] Requested version [3.2.1] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-10-29T09:50:47.797Z][WARN] Requested version [1.1.2] for package [com.unity.services.deployment.api] overridden by minimum version [1.1.3].
+[2026-10-29T09:50:47.799Z][INFO] project:resolve-packages --> 200 (14627 ms)
+[2026-10-29T09:50:47.967Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-29T09:50:47.974Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-10-29T09:50:47.978Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:48.226Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:48.235Z][INFO] project:list-packages --> 200 (257 ms)
+[2026-10-29T09:50:48.681Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:48.847Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:48.857Z][INFO] project:list-packages --> 200 (176 ms)
+[2026-10-29T09:50:48.959Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:49.146Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:49.159Z][INFO] project:list-packages --> 200 (200 ms)
+[2026-10-29T09:50:49.256Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:49.446Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:49.451Z][INFO] project:list-packages --> 200 (195 ms)
+[2026-10-29T09:50:49.581Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:49.763Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:49.773Z][INFO] project:list-packages --> 200 (192 ms)
+[2026-10-29T09:50:49.894Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:50.064Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:50.075Z][INFO] project:list-packages --> 200 (181 ms)
+[2026-10-29T09:50:50.506Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:50.672Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:50.679Z][INFO] project:list-packages --> 200 (173 ms)
+[2026-10-29T09:50:50.788Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:50.973Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:50.987Z][INFO] project:list-packages --> 200 (199 ms)
+[2026-10-29T09:50:51.128Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:51.341Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:51.350Z][INFO] project:list-packages --> 200 (223 ms)
+[2026-10-29T09:50:51.488Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:51.703Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:51.709Z][INFO] project:list-packages --> 200 (221 ms)
+[2026-10-29T09:50:51.821Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:50:52.009Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:50:52.015Z][INFO] project:list-packages --> 200 (194 ms)
+[2026-10-29T09:51:23.640Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:51:23.708Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:51:23.919Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:51:23.938Z][INFO] project:list-packages --> 200 (298 ms)
+[2026-10-29T09:51:24.003Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:51:24.016Z][INFO] project:list-packages --> 200 (308 ms)
+[2026-10-29T09:51:24.089Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:51:24.336Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:51:24.353Z][INFO] project:list-packages --> 200 (264 ms)
+[2026-10-29T09:51:24.354Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-29T09:51:24.359Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-10-29T09:53:52.450Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:53:52.662Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:53:52.674Z][INFO] project:list-packages --> 200 (224 ms)
+[2026-10-29T09:54:01.809Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:54:01.909Z][INFO] packages:get-packageinfo <-- Request received
+params: {
+  "packageId": "com.ptc.vuforia.engine"
+}
+[2026-10-29T09:54:02.647Z][INFO] packages:get-packageinfo --> 200 (738 ms)
+[2026-10-29T09:54:04.474Z][WARN] Package [com.ptc.vuforia.engine] has a non-valid signature — status: Unsigned, reason: No attestation file found, errorCode: ERR_ATTESTATION_NOT_FOUND
+[2026-10-29T09:54:04.489Z][INFO] project:list-packages --> 200 (2679 ms)
+[2026-10-29T09:54:29.752Z][INFO] project:embed-package <-- Request received
+params: {
+  "packageName": "com.ptc.vuforia.engine"
+}
+[2026-10-29T09:54:31.335Z][INFO] project:embed-package --> 200 (1584 ms)
+[2026-10-29T09:54:31.355Z][INFO] project:resolve-packages <-- Request received
+params: {}
+[2026-10-29T09:54:32.182Z][WARN] Requested version [1.0.4] for package [com.unity.services.analytics] overridden by minimum version [6.3.0].
+[2026-10-29T09:54:32.182Z][WARN] Requested version [3.2.1] for package [com.unity.nuget.newtonsoft-json] overridden by minimum version [3.2.2].
+[2026-10-29T09:54:32.182Z][WARN] Requested version [1.1.2] for package [com.unity.services.deployment.api] overridden by minimum version [1.1.3].
+[2026-10-29T09:54:32.186Z][INFO] project:resolve-packages --> 200 (831 ms)
+[2026-10-29T09:54:32.470Z][WARN] Error while attempting to delete 'D:\Portofolio\AR Jantung\Library\PackageCache\com.ptc.vuforia.engine@58134fb7b422': Error: EPERM: operation not permitted, unlink 'D:\Portofolio\AR Jantung\Library\PackageCache\.del--25156-DTroL4KPqHw1\Vuforia\Plugins\Windows\x64\FileDriver.dll'
+[2026-10-29T09:54:32.492Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-29T09:54:32.498Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-10-29T09:54:32.502Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:54:32.693Z][INFO] project:list-packages --> 200 (191 ms)
+[2026-10-29T09:54:58.987Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:54:59.055Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:54:59.331Z][INFO] project:list-packages --> 200 (344 ms)
+[2026-10-29T09:54:59.419Z][INFO] project:list-packages --> 200 (364 ms)
+[2026-10-29T09:54:59.532Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:54:59.785Z][INFO] project:list-packages --> 200 (253 ms)
+[2026-10-29T09:54:59.808Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-10-29T09:54:59.814Z][INFO] config:project:get-registries --> 200 (6 ms)
+[2026-10-29T09:55:02.124Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-10-29T09:55:02.384Z][INFO] project:list-packages --> 200 (260 ms)
