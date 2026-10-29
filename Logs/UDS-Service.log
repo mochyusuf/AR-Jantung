@@ -1,0 +1,36 @@
+
+Server arguments:
+  --memory-size 1073741824
+  --shared-postfix 3202b917c2d8511837795663ca453372
+  --working-directory Library/DataStore
+  --silent-console
+  --shutdown-grace 0
+  --client-process-check 0
+  --uds-log-file D:/Portofolio/AR Jantung/Logs/UDS-Service.log
+  --debug-log 2
+  -name
+  Unity.DataStore
+
+Initialising UDS system complete:
+  - System type: Service
+  - Resource namespace: 3202b917c2d8511837795663ca453372
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+Starting Unity Data Store Application
+[Error] Failed to free block of size 1911 - size delta was 41!
+0x00007ff7de8eac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7de8af835 (Unity.DataStore) uds_cleanup
+0x00007ff7de8d8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7de8c995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7de8b1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7de8825f4 (Unity.DataStore) 
+0x00007ff7de8a207a (Unity.DataStore) uds_cleanup
+0x00007ff7de8e61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff8159edda7 (KERNEL32) BaseThreadInitThunk
+0x00007ff8170dee4c (ntdll) RtlUserThreadStart
+
+Unity Data Store Application Complete
+[Warning] Shutting down service while there are still connected clients, client count = 3
+Shut down UDS service system complete
