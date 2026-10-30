@@ -71,6 +71,23 @@
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARCameraEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\webcamprofiles.xml" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\macos\readme_SDK.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\android\readme_SDK.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\lumin\license_3rdpartynotice.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\windows\readme_SDK.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\android\license_3rdpartynotice.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\windows\license_3rdpartynotice.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\lumin\readme_SDK.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\macos\license_3rdpartynotice.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\uwp\readme_SDK.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\ios\readme_SDK.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.XML" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\uwp\license_3rdpartynotice.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\Licenses\ios\license_3rdpartynotice.txt" />
+    <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
@@ -731,6 +748,10 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Vuforia.Unity.Wrapper">
+      <HintPath>Packages\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
@@ -751,24 +772,20 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4\Lib\Editor\log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Vuforia.Unity.Engine">
+      <HintPath>Packages\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Vuforia.Unity.Editor">
+      <HintPath>Packages\com.ptc.vuforia.engine\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@c9d14a6bdec6\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Vuforia.Unity.Wrapper">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine@58134fb7b422\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Wrapper.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Vuforia.Unity.Editor">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine@58134fb7b422\Vuforia\Plugins\Managed\Editor\Vuforia.Unity.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Vuforia.Unity.Engine">
-      <HintPath>Library\PackageCache\com.ptc.vuforia.engine@58134fb7b422\Vuforia\Plugins\Managed\Runtime\Vuforia.Unity.Engine.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1339,10 +1356,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Purchasing.PaymentProviderService.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VuforiaScripts">
-      <HintPath>Library\ScriptAssemblies\VuforiaScripts.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1423,10 +1436,6 @@
       <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1437,6 +1446,10 @@
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Analytics">
@@ -1499,10 +1512,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Purchasing.Stores.XboxCloudServices.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="VuforiaEditorScripts">
-      <HintPath>Library\ScriptAssemblies\VuforiaEditorScripts.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
       <Private>False</Private>
@@ -1524,6 +1533,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{B4A8CBF1-C398-84C6-C305-DAAF0BD7D8A4}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{C83122DD-26F7-85EC-678C-62B8C8E51248}</Project>
+      <Name>VuforiaScripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="VuforiaEditorScripts.csproj">
+      <Project>{2F761621-E152-CBD7-B7AF-D0F4D7C226E9}</Project>
+      <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

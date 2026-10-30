@@ -39539,7 +39539,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Aplikasi ini merupakan aplikasi media pembelajaran materi gangguan sistem peredaran darah. Dengan menggunakan teknologi Augmented Reality yang dilengkapi dengan quiz.\r\n\nDibuat oleh Syamsi Fitrianingsih\r\n\nTahun 2021\r"
+  m_Text: "Aplikasi ini merupakan aplikasi augmented reality penyakit. Menjelaskan tentang penyakit yang menyerang jantung menggunakan game engine unity\r\n\nDibuat oleh Mochamad Yusuf\r\n\r"
 --- !u!222 &1653120668
 CanvasRenderer:
   m_ObjectHideFlags: 0
