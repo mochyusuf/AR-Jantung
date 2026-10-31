@@ -2,6 +2,8 @@
 Library
 Build
 obj
+Temp
+Log
 *.png
 *.obj
 *.bin

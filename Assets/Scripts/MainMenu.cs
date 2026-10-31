@@ -103,7 +103,6 @@ public class MainMenu : MonoBehaviour
         public Sprite image;
         public string title;
         public string text;
-        public string url;
     }
 
     public _Info[] Info;
@@ -122,8 +121,6 @@ public class MainMenu : MonoBehaviour
     public _InfoObject InfoObject;
 	public GameObject Benar;
 	public GameObject Salah;
-
-    public string url;
 
     public InputField nama_input;
     public Text[] skor_tertinggi;
@@ -199,27 +196,17 @@ public class MainMenu : MonoBehaviour
 			materiObject.onlyText.SetActive(true);
 		}
         GetMateri();
-        //materi = new _Materi[materiData.list_materi.Count];
-        //for (int i = 0; i < materiData.list_materi.Count; i++)
-        //{
-        //    materi[i].text = materiData.list_materi[i].materi;
-        //}
     }
 
     private void GetMateri()
     {
-        //HttpWebRequest request = (HttpWebRequest)WebRequest.Create(String.Format("https://server-ar-jantung.000webhostapp.com/api.php"));
-        //HttpWebResponse response = (HttpWebResponse)request.GetResponse();
         var temp = StartCoroutine(ProcessRequest("https://server-ar-jantung.000webhostapp.com/api.php"));
-        //StreamReader reader = new StreamReader(temp.ToString);
-        //string jsonResponse = reader.ReadToEnd();
-        //MateriData info = JsonUtility.FromJson<MateriData>(jsonResponse);
-        //return info;
     }
 
     private void Getsoal() { 
         var temp = StartCoroutine(ProcessRequestSoal("https://server-ar-jantung.000webhostapp.com/api.php?data=soal"));
     }
+
     private IEnumerator ProcessRequestSoal(string uri)
     {
         using (UnityWebRequest request = UnityWebRequest.Get(uri))
@@ -915,7 +902,6 @@ public class MainMenu : MonoBehaviour
 
                     InfoObject.onlyText.SetActive(true);
                 }
-                url = Info[0].url;
                 break;
 
             case 1:
@@ -939,7 +925,6 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[1].url;
                         break;
 
                     case 0:
@@ -960,7 +945,6 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[4].url;
                         break;
                 }
                 break;
@@ -987,7 +971,6 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[2].url;
                         break;
 
                     case 0:
@@ -1008,7 +991,6 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[5].url;
                         break;
 
                     case 1:
@@ -1029,13 +1011,11 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[6].url;
                         break;
                 }
                 break;
 
             case 3:
-
                 switch (GameManager.instance.IndexDetailObject)
                 {
                     case -1:
@@ -1056,7 +1036,6 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[3].url;
                         break;
 
                     case 0:
@@ -1077,7 +1056,6 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[7].url;
                         break;
 
                     case 1:
@@ -1098,7 +1076,6 @@ public class MainMenu : MonoBehaviour
 
                             InfoObject.onlyText.SetActive(true);
                         }
-                        url = Info[8].url;
                         break;
                 }
                 break;
@@ -1224,7 +1201,6 @@ public class MainMenu : MonoBehaviour
 
     public void OpenVideo()
     {
-        Application.OpenURL(url);
     }
 
     public void Video()
