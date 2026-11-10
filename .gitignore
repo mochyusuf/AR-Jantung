@@ -3,7 +3,7 @@ Library
 Build
 obj
 Temp
-Log
+Logs
 *.png
 *.obj
 *.bin

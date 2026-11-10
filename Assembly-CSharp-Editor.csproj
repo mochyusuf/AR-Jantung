@@ -55,19 +55,7 @@
     <UnityVersion>6000.6.0f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitMenuEditor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARControllerEditor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARMarkerEditor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\AROriginEditor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectGizmo.cs" />
     <Compile Include="Assets\Editor\Migration\AddVuforiaEnginePackage.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedObjectEditor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitPackager.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARToolKitPostProcessor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraGizmo.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTrackedCameraEditor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARTransitionalCameraEditor.cs" />
-    <Compile Include="Assets\ARToolKit5-Unity\Scripts\Editor\ARCameraEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.ptc.vuforia.engine\Vuforia\Editor\EditorResources\webcamprofiles.xml" />

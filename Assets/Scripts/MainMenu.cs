@@ -35,30 +35,12 @@ public class MainMenu : MonoBehaviour
     }
 
     public _PetunjukObject petunjukObject;
-
-    [System.Serializable]
-    public class _Materi
-    {
-        public Sprite image;
-        public string text;
-    }
-
-	[HideInInspector]
-    public List<_Materi> materi;
+    
+    public List<GameObject> materi;
     public int index_materi;
 
-
-    [System.Serializable]
-    public class _MateriObject
-    {
-        public Image image;
-        public Text text;
-        public Text text_2;
-        public GameObject onlyText;
-        public GameObject withImage;
-    }
-
-    public _MateriObject materiObject;
+    public GameObject prev_materi;
+    public GameObject next_materi;
 
     [System.Serializable]
     public class _Question
@@ -156,9 +138,6 @@ public class MainMenu : MonoBehaviour
     // Use this for initialization
     private void Start()
     {
-        materiObject.withImage.SetActive(false);
-        materiObject.onlyText.SetActive(false);
-
         petunjukObject.withImage.SetActive(false);
         petunjukObject.onlyText.SetActive(false);
 
@@ -178,31 +157,10 @@ public class MainMenu : MonoBehaviour
             petunjukObject.onlyText.SetActive(true);
         }
 
-		materi = new List<_Materi>();
-		materi.Add (new _Materi(){ image = null, text="Loading..."});
-		if (materi[0].image != null)
-		{
-			materiObject.image.sprite = materi[0].image;
-			materiObject.text.text = materi[0].text;
-			materiObject.text_2.text = materi[0].text;
-
-			materiObject.withImage.SetActive(true);
-		}
-		else
-		{
-			materiObject.text.text = materi[0].text;
-			materiObject.text_2.text = materi[0].text;
-
-			materiObject.onlyText.SetActive(true);
-		}
-        GetMateri();
+        index_materi = 0;
+       
     }
-
-    private void GetMateri()
-    {
-        var temp = StartCoroutine(ProcessRequest("https://server-ar-jantung.000webhostapp.com/api.php"));
-    }
-
+    
     private void Getsoal() { 
         var temp = StartCoroutine(ProcessRequestSoal("https://server-ar-jantung.000webhostapp.com/api.php?data=soal"));
     }
@@ -270,65 +228,6 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    private IEnumerator ProcessRequest(string uri)
-    {
-        using (UnityWebRequest request = UnityWebRequest.Get(uri))
-        {
-            yield return request.SendWebRequest();
-
-            if (request.isNetworkError)
-            {
-                Debug.Log("Error: " + request.error);
-            }
-            else
-            {
-                Debug.Log("Received: " + request.downloadHandler.text);
-
-                //StreamReader reader = new StreamReader(request.downloadHandler.text);
-                //string jsonResponse = reader.ReadToEnd();
-                MateriData info = JsonUtility.FromJson<MateriData>(request.downloadHandler.text);
-
-                materi = new List<_Materi>();
-                for (int i = 0; i < info.materi.Count; i++)
-                {
-					if(info.materi[i].gambar == ""){
-						materi.Add(new _Materi(){ image = null, text=info.materi[i].materi});
-						var temp = materi[i].image;
-						if (materi[i].image != null)
-						{
-							materiObject.image.sprite = materi[i].image;
-							materiObject.text.text = materi[i].text;
-							materiObject.text_2.text = materi[i].text;
-
-							materiObject.withImage.SetActive(true);
-							materiObject.onlyText.SetActive(false);
-						}
-						else
-						{
-							materiObject.text.text = materi[i].text;
-							materiObject.text_2.text = materi[i].text;
-
-							materiObject.withImage.SetActive(false);
-							materiObject.onlyText.SetActive(true);
-						}
-					}else{
-						yield return StartCoroutine(GetTexture(info.materi[i].gambar,info.materi[i].materi));
-					}
-                }
-            }
-        }
-    }
-	
-	private IEnumerator GetTexture(String uri,String text) {
-        UnityWebRequest www = UnityWebRequestTexture.GetTexture("https://server-ar-jantung.000webhostapp.com/"+uri);
-        yield return www.SendWebRequest();
-
-        Texture myTexture = DownloadHandlerTexture.GetContent(www);
-		Texture2D text2D = (Texture2D)myTexture;
-		Sprite mySprite = Sprite.Create(text2D, new Rect(0.0f, 0.0f, text2D.width, text2D.height), new Vector2(0.5f, 0.5f), 100.0f);
-		materi.Add(new _Materi(){ image = mySprite, text=text});
-    }
-
     // Update is called once per frame
     private void Update()
     {
@@ -351,6 +250,15 @@ public class MainMenu : MonoBehaviour
     {
         Disable();
         UI[1].SetActive(true);
+
+        for (int i = 0; i < materi.Count; i++)
+        {
+            materi[i].SetActive(false);
+        }
+        index_materi = 0;
+        materi[index_materi].SetActive(true);
+        prev_materi.SetActive(false);
+        next_materi.SetActive(true);
     }
 
     public void Reset()
@@ -375,6 +283,7 @@ public class MainMenu : MonoBehaviour
         Disable();
         UI[5].SetActive(true);
     }
+
     public void MulaiNama()
     {
         if (mulai_nama_input.text.Length > 0)
@@ -458,63 +367,53 @@ public class MainMenu : MonoBehaviour
 
     public void NextMateri()
     {
-        materiObject.withImage.SetActive(false);
-        materiObject.onlyText.SetActive(false);
-
-        if (index_materi + 1 == materi.Count)
+        for (int i = 0; i < materi.Count; i++)
         {
-            index_materi = 0;
+            materi[i].SetActive(false);
+        }
+        index_materi = index_materi + 1;
+        materi[index_materi].SetActive(true);
+
+        if (index_materi <= 0)
+        {
+            prev_materi.SetActive(false);
+            next_materi.SetActive(true);
+        }
+        else if (index_materi == (materi.Count - 1))
+        {
+            prev_materi.SetActive(true);
+            next_materi.SetActive(false);
         }
         else
         {
-            index_materi = index_materi + 1;
-        }
-        var temp = materi[index_materi].image;
-        Debug.Log(temp);
-        if (materi[index_materi].image != null)
-        {
-            materiObject.image.sprite = materi[index_materi].image;
-            materiObject.text.text = materi[index_materi].text;
-            materiObject.text_2.text = materi[index_materi].text;
-
-            materiObject.withImage.SetActive(true);
-        }
-        else
-        {
-            materiObject.text.text = materi[index_materi].text;
-            materiObject.text_2.text = materi[index_materi].text;
-
-            materiObject.onlyText.SetActive(true);
+            prev_materi.SetActive(true);
+            next_materi.SetActive(true);
         }
     }
 
     public void PrevMateri()
     {
-        materiObject.withImage.SetActive(false);
-        materiObject.onlyText.SetActive(false);
-        if (index_materi - 1 < 0)
+        for (int i = 0; i < materi.Count; i++)
         {
-            index_materi = materi.Count - 1;
+            materi[i].SetActive(false);
+        }
+        index_materi = index_materi - 1;
+        materi[index_materi].SetActive(true);
+
+        if (index_materi <= 0)
+        {
+            prev_materi.SetActive(false);
+            next_materi.SetActive(true);
+        }
+        else if (index_materi == (materi.Count - 1))
+        {
+            prev_materi.SetActive(true);
+            next_materi.SetActive(false);
         }
         else
         {
-            index_materi = index_materi - 1;
-        }
-
-        if (materi[index_materi].image != null)
-        {
-            materiObject.image.sprite = materi[index_materi].image;
-            materiObject.text.text = materi[index_materi].text;
-            materiObject.text_2.text = materi[index_materi].text;
-
-            materiObject.withImage.SetActive(true);
-        }
-        else
-        {
-            materiObject.text.text = materi[index_materi].text;
-            materiObject.text_2.text = materi[index_materi].text;
-
-            materiObject.onlyText.SetActive(true);
+            prev_materi.SetActive(true);
+            next_materi.SetActive(true);
         }
     }
 
@@ -1089,55 +988,55 @@ public class MainMenu : MonoBehaviour
 
     public void DetailObjek(int index)
     {
-        GameManager.instance.IndexDetailObject = index;
-        Disable();
-        UI[8].SetActive(true);
-        UI[13].SetActive(true);
-        switch (GameManager.instance.IndexDetectMarker)
-        {
-            case 0:
-                break;
+        //GameManager.instance.IndexDetailObject = index;
+        //Disable();
+        //UI[8].SetActive(true);
+        //UI[13].SetActive(true);
+        //switch (GameManager.instance.IndexDetectMarker)
+        //{
+        //    case 0:
+        //        break;
 
-            case 1:
-                switch (index)
-                {
-                    case 0:
-                        GameManager.instance.controller.Disable();
-                        GameManager.instance.controller.Object[4].SetActive(true);
-                        break;
-                }
-                break;
+        //    case 1:
+        //        switch (index)
+        //        {
+        //            case 0:
+        //                GameManager.instance.controller.Disable();
+        //                GameManager.instance.controller.Object[4].SetActive(true);
+        //                break;
+        //        }
+        //        break;
 
-            case 2:
-                switch (index)
-                {
-                    case 0:
-                        GameManager.instance.controller.Disable();
-                        GameManager.instance.controller.Object[5].SetActive(true);
-                        break;
+        //    case 2:
+        //        switch (index)
+        //        {
+        //            case 0:
+        //                GameManager.instance.controller.Disable();
+        //                GameManager.instance.controller.Object[5].SetActive(true);
+        //                break;
 
-                    case 1:
-                        GameManager.instance.controller.Disable();
-                        GameManager.instance.controller.Object[6].SetActive(true);
-                        break;
-                }
-                break;
+        //            case 1:
+        //                GameManager.instance.controller.Disable();
+        //                GameManager.instance.controller.Object[6].SetActive(true);
+        //                break;
+        //        }
+        //        break;
 
-            case 3:
-                switch (index)
-                {
-                    case 0:
-                        GameManager.instance.controller.Disable();
-                        GameManager.instance.controller.Object[7].SetActive(true);
-                        break;
+        //    case 3:
+        //        switch (index)
+        //        {
+        //            case 0:
+        //                GameManager.instance.controller.Disable();
+        //                GameManager.instance.controller.Object[7].SetActive(true);
+        //                break;
 
-                    case 1:
-                        GameManager.instance.controller.Disable();
-                        GameManager.instance.controller.Object[8].SetActive(true);
-                        break;
-                }
-                break;
-        }
+        //            case 1:
+        //                GameManager.instance.controller.Disable();
+        //                GameManager.instance.controller.Object[8].SetActive(true);
+        //                break;
+        //        }
+        //        break;
+        //}
     }
 
     public void KembaliObjek()
@@ -1145,29 +1044,29 @@ public class MainMenu : MonoBehaviour
         Disable();
         UI[8].SetActive(true);
         UI[13].SetActive(false);
-        switch (GameManager.instance.IndexDetectMarker)
-        {
-            case 0:
-                break;
+        //switch (GameManager.instance.IndexDetectMarker)
+        //{
+        //    case 0:
+        //        break;
 
-            case 1:
-                GameManager.instance.controller.Disable();
-                GameManager.instance.controller.Object[1].SetActive(true);
-                UI[10].SetActive(true);
-                break;
+        //    case 1:
+        //        GameManager.instance.controller.Disable();
+        //        GameManager.instance.controller.Object[1].SetActive(true);
+        //        UI[10].SetActive(true);
+        //        break;
 
-            case 2:
-                GameManager.instance.controller.Disable();
-                GameManager.instance.controller.Object[2].SetActive(true);
-                UI[11].SetActive(true);
-                break;
+        //    case 2:
+        //        GameManager.instance.controller.Disable();
+        //        GameManager.instance.controller.Object[2].SetActive(true);
+        //        UI[11].SetActive(true);
+        //        break;
 
-            case 3:
-                GameManager.instance.controller.Disable();
-                GameManager.instance.controller.Object[3].SetActive(true);
-                UI[12].SetActive(true);
-                break;
-        }
+        //    case 3:
+        //        GameManager.instance.controller.Disable();
+        //        GameManager.instance.controller.Object[3].SetActive(true);
+        //        UI[12].SetActive(true);
+        //        break;
+        //}
         GameManager.instance.IndexDetailObject = -1;
     }
 
