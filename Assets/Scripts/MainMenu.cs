@@ -161,69 +161,39 @@ public class MainMenu : MonoBehaviour
        
     }
     
-    private void Getsoal() { 
-        var temp = StartCoroutine(ProcessRequestSoal("https://server-ar-jantung.000webhostapp.com/api.php?data=soal"));
-    }
+    private void Getsoal() {
+        Disable();
+        index_question = 0;
+        score = 0;
+        index = RandomArray.StartShuffle(question.Length);
+        ShowQuestion(index[index_question] - 1);
+        UI[16].SetActive(true);
+        mulai_nama_input.text = "";
 
-    private IEnumerator ProcessRequestSoal(string uri)
-    {
-        using (UnityWebRequest request = UnityWebRequest.Get(uri))
+        int skor = PlayerPrefs.GetInt("skor_tertinggi");
+        string nama = PlayerPrefs.GetString("nama_tertinggi");
+        if (skor == 0)
         {
-            yield return request.SendWebRequest();
-
-            if (request.isNetworkError)
+            for (int i = 0; i < skor_tertinggi_object.Length; i++)
             {
-                Debug.Log("Error: " + request.error);
+                skor_tertinggi_object[i].SetActive(false);
             }
-            else
+            nama_object.SetActive(false);
+        }
+        else
+        {
+            for (int i = 0; i < skor_tertinggi_object.Length; i++)
             {
-                Debug.Log("Received: " + request.downloadHandler.text);
-
-                //StreamReader reader = new StreamReader(request.downloadHandler.text);
-                //string jsonResponse = reader.ReadToEnd();
-                SoalData info = JsonUtility.FromJson<SoalData>(request.downloadHandler.text);
-
-                List<_Question> temp = new List<_Question>();
-                for (int i = 0; i < info.soal.Count; i++)
-                {
-                    temp.Add(new _Question() { image = null, text = info.soal[i].pertanyaan, answer = info.soal[i].jawaban });
-                }
-                question = temp.ToArray();
+                skor_tertinggi_object[i].SetActive(true);
             }
-            Disable();
-            index_question = 0;
-            score = 0;
-            index = RandomArray.StartShuffle(question.Length);
-            //Debug.Log(index[index_question]);
-            ShowQuestion(index[index_question] - 1);
-            UI[16].SetActive(true);
-            mulai_nama_input.text = "";
-
-            int skor = PlayerPrefs.GetInt("skor_tertinggi");
-            string nama = PlayerPrefs.GetString("nama_tertinggi");
-            if (skor == 0)
+            nama_object.SetActive(true);
+            for (int i = 0; i < skor_tertinggi.Length; i++)
             {
-                for (int i = 0; i < skor_tertinggi_object.Length; i++)
-                {
-                    skor_tertinggi_object[i].SetActive(false);
-                }
-                nama_object.SetActive(false);
+                skor_tertinggi[i].text = "Skor Tertinggi : " + skor;
             }
-            else
+            for (int i = 0; i < nama_tertinggi.Length; i++)
             {
-                for (int i = 0; i < skor_tertinggi_object.Length; i++)
-                {
-                    skor_tertinggi_object[i].SetActive(true);
-                }
-                nama_object.SetActive(true);
-                for (int i = 0; i < skor_tertinggi.Length; i++)
-                {
-                    skor_tertinggi[i].text = "Skor Tertinggi : " + skor;
-                }
-                for (int i = 0; i < nama_tertinggi.Length; i++)
-                {
-                    nama_tertinggi[i].text = "Nama : " + nama;
-                }
+                nama_tertinggi[i].text = "Nama : " + nama;
             }
         }
     }
