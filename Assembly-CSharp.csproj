@@ -67,7 +67,7 @@
     <Compile Include="Assets\Scripts\Controller.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\StreamingAssets\build_info.txt" />
+    <None Include="Assets\StreamingAssets\Vuforia\ar_jantung.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

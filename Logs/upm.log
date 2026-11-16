@@ -1,104 +1,40 @@
-[2026-11-11T08:56:52.992Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 10548 --ipc-path Unity-Upm-10548 -l 2 --log-file 'D:\\Portofolio\\AR Jantung/Logs/upm.log'
-[2026-11-11T08:56:53.062Z][INFO] IPC server started (IPC path=Unity-Upm-10548).
-[2026-11-11T08:56:53.062Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-10548.
-[2026-11-11T08:57:18.366Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:08:18.188Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 15432 --ipc-path Unity-Upm-15432 -l 2 --log-file 'D:\\Portofolio\\AR Jantung/Logs/upm.log'
+[2026-11-16T09:08:18.271Z][INFO] IPC server started (IPC path=Unity-Upm-15432).
+[2026-11-16T09:08:18.271Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-15432.
+[2026-11-16T09:08:40.650Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-11T08:57:27.158Z][INFO] config:project:get-registries <-- Request received
+[2026-11-16T09:08:43.018Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-11T08:57:27.159Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:08:43.063Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-11T08:57:28.944Z][ERROR] Unexpected error fetching registry list config: Cannot connect to 'cdn.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
-{
-  stack: "Error: Cannot connect to 'cdn.packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.\n" +
-    '    at convertHttpRequestErrorToUpmError (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:7607)\n' +
-    '    at runAxiosRequest (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:155:10548)\n' +
-    '    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n' +
-    '    at async Object.getJsonAndEtag (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:107)\n' +
-    '    at async Object.fetchNonCompliantRegistries (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:3824)\n' +
-    '    at async /home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:4975\n' +
-    '    at async findMatchingNonCompliantRegistries (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:5849)\n' +
-    '    at async Object.getRegistryCompliance (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:156:6497)\n' +
-    '    at async getRegistryInfo (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:185:10765)\n' +
-    '    at async Object.getAllRegistryInfo (/home/bokken/build/output/unity/upm/dist/temp/bundle/app.js:185:11208)'
-}
-[2026-11-11T08:57:29.021Z][INFO] config:project:get-registries --> 200 (1864 ms)
-[2026-11-11T08:57:33.480Z][INFO] project:list-packages --> 200 (15115 ms)
-[2026-11-11T08:57:33.481Z][INFO] project:list-packages --> 200 (6322 ms)
-[2026-11-11T08:59:15.410Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:08:43.630Z][INFO] config:project:get-registries --> 200 (611 ms)
+[2026-11-16T09:08:47.442Z][INFO] project:list-packages --> 200 (6792 ms)
+[2026-11-16T09:08:47.613Z][INFO] project:list-packages --> 200 (4550 ms)
+[2026-11-16T09:10:21.559Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-11T08:59:15.579Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:10:21.740Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-11T08:59:15.714Z][INFO] project:list-packages --> 200 (304 ms)
-[2026-11-11T08:59:15.918Z][INFO] project:list-packages --> 200 (339 ms)
-[2026-11-11T08:59:16.034Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:10:21.794Z][INFO] project:list-packages --> 200 (235 ms)
+[2026-11-16T09:10:21.965Z][INFO] project:list-packages --> 200 (225 ms)
+[2026-11-16T09:10:22.122Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-11T08:59:16.313Z][INFO] project:list-packages --> 200 (279 ms)
-[2026-11-11T08:59:16.588Z][INFO] config:project:get-registries <-- Request received
+[2026-11-16T09:10:22.294Z][INFO] project:list-packages --> 200 (172 ms)
+[2026-11-16T09:10:22.611Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-11T08:59:16.593Z][INFO] config:project:get-registries --> 200 (6 ms)
-[2026-11-11T08:59:24.813Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:10:22.616Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-11-16T09:10:30.527Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-11T08:59:25.103Z][INFO] project:list-packages --> 200 (290 ms)
-[2026-11-11T08:59:43.578Z][INFO] packages:get-packageinfo <-- Request received
+[2026-11-16T09:10:30.722Z][INFO] project:list-packages --> 200 (195 ms)
+[2026-11-16T09:11:00.350Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.ptc.vuforia.engine"
 }
-[2026-11-11T08:59:43.618Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
-[2026-11-11T08:59:43.629Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
-[2026-11-11T08:59:43.633Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
-[2026-11-11T08:59:43.638Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ENOTFOUND). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
-[2026-11-11T08:59:43.639Z][INFO] packages:get-packageinfo --> 200 (61 ms)
-[2026-11-11T09:08:16.401Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:11:01.516Z][INFO] Downloading package [com.unity.package-manager.metadata-6000.6@0.0.103] from registry 'https://packages.unity.com'
+[2026-11-16T09:11:02.203Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-11T09:08:16.658Z][INFO] project:list-packages --> 200 (257 ms)
-[2026-11-11T09:08:16.975Z][INFO] project:list-packages <-- Request received
+[2026-11-16T09:11:02.789Z][INFO] Finished downloading package [com.unity.package-manager.metadata-6000.6@0.0.103] from registry 'https://packages.unity.com' (size: 11.5 kB, time: 1.2s)
+[2026-11-16T09:11:04.093Z][INFO] packages:get-packageinfo --> 200 (3743 ms)
+[2026-11-16T09:11:08.071Z][INFO] project:list-packages --> 200 (5868 ms)
+[2026-11-16T09:12:07.536Z][INFO] tarball:extract <-- Request received
 params: {}
-[2026-11-11T09:08:17.214Z][INFO] project:list-packages --> 200 (239 ms)
-[2026-11-11T09:08:17.437Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-11-11T09:08:17.442Z][INFO] config:project:get-registries --> 200 (5 ms)
-[2026-11-11T09:14:05.897Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:14:06.078Z][INFO] project:list-packages --> 200 (181 ms)
-[2026-11-11T09:14:06.266Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:14:06.459Z][INFO] project:list-packages --> 200 (193 ms)
-[2026-11-11T09:14:06.649Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-11-11T09:14:06.654Z][INFO] config:project:get-registries --> 200 (5 ms)
-[2026-11-11T09:15:14.521Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:15:14.697Z][INFO] project:list-packages --> 200 (176 ms)
-[2026-11-11T09:15:14.880Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:15:15.070Z][INFO] project:list-packages --> 200 (190 ms)
-[2026-11-11T09:15:15.230Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-11-11T09:15:15.235Z][INFO] config:project:get-registries --> 200 (5 ms)
-[2026-11-11T09:17:17.948Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:17:18.180Z][INFO] project:list-packages --> 200 (232 ms)
-[2026-11-11T09:17:18.366Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:17:18.590Z][INFO] project:list-packages --> 200 (224 ms)
-[2026-11-11T09:17:18.699Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-11-11T09:17:18.705Z][INFO] config:project:get-registries --> 200 (6 ms)
-[2026-11-11T09:17:44.249Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:17:44.416Z][INFO] project:list-packages --> 200 (167 ms)
-[2026-11-11T09:17:44.603Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:17:44.784Z][INFO] project:list-packages --> 200 (181 ms)
-[2026-11-11T09:17:44.967Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-11-11T09:17:44.972Z][INFO] config:project:get-registries --> 200 (5 ms)
-[2026-11-11T09:19:49.782Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:19:49.962Z][INFO] project:list-packages --> 200 (180 ms)
-[2026-11-11T09:19:50.165Z][INFO] project:list-packages <-- Request received
-params: {}
-[2026-11-11T09:19:50.376Z][INFO] project:list-packages --> 200 (212 ms)
-[2026-11-11T09:19:50.558Z][INFO] config:project:get-registries <-- Request received
-params: {}
-[2026-11-11T09:19:50.565Z][INFO] config:project:get-registries --> 200 (7 ms)
+[2026-11-16T09:12:07.655Z][INFO] tarball:extract --> 200 (119 ms)

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="varises" size="500.000000 500.000000" />
+    <ImageTarget name="otak" size="500.000000 500.000000" />
+    <ImageTarget name="jantung" size="500.000000 500.000000" />
+    <ImageTarget name="anemia" size="500.000000 500.000000" />
+  </Tracking>
+</QCARConfig>
