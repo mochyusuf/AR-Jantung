@@ -19,3 +19,75 @@ Initialising UDS system complete:
   - Command buffer size: 8192
   - Hashmap size: 4194304
 Starting Unity Data Store Application
+[Error] Failed to free block of size 8133 - size delta was 43!
+0x00007ff7b5afac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5abf835 (Unity.DataStore) uds_cleanup
+0x00007ff7b5ae8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5ad995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7b5ac1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7b5a925f4 (Unity.DataStore) 
+0x00007ff7b5ab207a (Unity.DataStore) uds_cleanup
+0x00007ff7b5af61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffaaa5adda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaab6b9c5c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 4172 - size delta was 44!
+0x00007ff7b5afac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5abf835 (Unity.DataStore) uds_cleanup
+0x00007ff7b5ae8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5ad995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7b5ac1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7b5a925f4 (Unity.DataStore) 
+0x00007ff7b5ab207a (Unity.DataStore) uds_cleanup
+0x00007ff7b5af61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffaaa5adda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaab6b9c5c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 8772 - size delta was 44!
+0x00007ff7b5afac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5abf835 (Unity.DataStore) uds_cleanup
+0x00007ff7b5ae8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5ad995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7b5ac1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7b5a925f4 (Unity.DataStore) 
+0x00007ff7b5ab207a (Unity.DataStore) uds_cleanup
+0x00007ff7b5af61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffaaa5adda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaab6b9c5c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 2095 - size delta was 41!
+0x00007ff7b5afac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5abf835 (Unity.DataStore) uds_cleanup
+0x00007ff7b5ae8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5ad995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7b5ac1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7b5a925f4 (Unity.DataStore) 
+0x00007ff7b5ab207a (Unity.DataStore) uds_cleanup
+0x00007ff7b5af61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffaaa5adda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaab6b9c5c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 3083 - size delta was 45!
+0x00007ff7b5afac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5abf835 (Unity.DataStore) uds_cleanup
+0x00007ff7b5ae8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5ad995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7b5ac1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7b5a925f4 (Unity.DataStore) 
+0x00007ff7b5ab207a (Unity.DataStore) uds_cleanup
+0x00007ff7b5af61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffaaa5adda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaab6b9c5c (ntdll) RtlUserThreadStart
+
+[Error] Failed to free block of size 4678 - size delta was 42!
+0x00007ff7b5afac75 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5abf835 (Unity.DataStore) uds_cleanup
+0x00007ff7b5ae8578 (Unity.DataStore) uds_wait_handle_complete
+0x00007ff7b5ad995b (Unity.DataStore) udebug_set_file_logging_level
+0x00007ff7b5ac1e4a (Unity.DataStore) uds_cleanup
+0x00007ff7b5a925f4 (Unity.DataStore) 
+0x00007ff7b5ab207a (Unity.DataStore) uds_cleanup
+0x00007ff7b5af61d8 (Unity.DataStore) uds_wait_handle_complete
+0x00007ffaaa5adda7 (KERNEL32) BaseThreadInitThunk
+0x00007ffaab6b9c5c (ntdll) RtlUserThreadStart
+

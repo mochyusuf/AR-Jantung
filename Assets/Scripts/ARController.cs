@@ -19,5 +19,30 @@ namespace Vuforia
         {
 
         }
+        public void Detect(string name)
+        {
+            switch (name)
+            {
+                case "anemia":
+                    break;
+
+                case "otak":
+                    break;
+
+                case "jantung":
+                    break;
+
+                case "varises":
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+        public void NotDetect()
+        {
+
+        }
     }
 }
