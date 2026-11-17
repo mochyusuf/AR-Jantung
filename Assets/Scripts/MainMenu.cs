@@ -213,7 +213,7 @@ public class MainMenu : MonoBehaviour
 
     public void MulaiAR()
     {
-        SceneManager.LoadScene("AR");
+        SceneManager.LoadScene("Vuforia");
     }
 
     public void Materi()
