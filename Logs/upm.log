@@ -1,35 +1,35 @@
-[2026-11-17T10:10:27.177Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 15176 --ipc-path Unity-Upm-15176 -l 2 --log-file 'D:\\Portofolio\\AR Jantung/Logs/upm.log'
-[2026-11-17T10:10:27.282Z][INFO] IPC server started (IPC path=Unity-Upm-15176).
-[2026-11-17T10:10:27.283Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-15176.
-[2026-11-17T10:10:48.271Z][INFO] project:list-packages <-- Request received
+[2026-11-17T11:10:41.311Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.6.0f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 27316 --ipc-path Unity-Upm-27316 -l 2 --log-file 'D:\\Portofolio\\AR Jantung/Logs/upm.log'
+[2026-11-17T11:10:41.376Z][INFO] IPC server started (IPC path=Unity-Upm-27316).
+[2026-11-17T11:10:41.376Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-27316.
+[2026-11-17T11:10:46.331Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-17T10:10:49.434Z][INFO] project:list-packages --> 200 (1163 ms)
-[2026-11-17T10:10:51.188Z][INFO] config:project:get-registries <-- Request received
+[2026-11-17T11:10:46.629Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-17T10:10:51.200Z][INFO] config:project:get-registries --> 200 (12 ms)
-[2026-11-17T10:10:51.227Z][INFO] project:list-packages <-- Request received
+[2026-11-17T11:10:46.687Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-17T10:10:51.719Z][INFO] project:list-packages --> 200 (492 ms)
-[2026-11-17T10:11:37.124Z][INFO] project:list-packages <-- Request received
+[2026-11-17T11:10:46.729Z][INFO] project:list-packages --> 200 (399 ms)
+[2026-11-17T11:10:46.729Z][INFO] config:project:get-registries --> 200 (100 ms)
+[2026-11-17T11:10:46.964Z][INFO] project:list-packages --> 200 (277 ms)
+[2026-11-17T11:10:53.222Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-17T10:11:37.253Z][INFO] project:list-packages <-- Request received
+[2026-11-17T11:10:53.272Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-17T10:11:37.464Z][INFO] project:list-packages --> 200 (340 ms)
-[2026-11-17T10:11:37.603Z][INFO] project:list-packages <-- Request received
+[2026-11-17T11:10:53.525Z][INFO] project:list-packages --> 200 (303 ms)
+[2026-11-17T11:10:53.616Z][INFO] project:list-packages --> 200 (344 ms)
+[2026-11-17T11:10:53.637Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-17T10:11:37.629Z][INFO] project:list-packages --> 200 (376 ms)
-[2026-11-17T10:11:37.915Z][INFO] project:list-packages --> 200 (313 ms)
-[2026-11-17T10:11:38.177Z][INFO] config:project:get-registries <-- Request received
+[2026-11-17T11:10:53.856Z][INFO] project:list-packages --> 200 (219 ms)
+[2026-11-17T11:10:54.154Z][INFO] config:project:get-registries <-- Request received
 params: {}
-[2026-11-17T10:11:38.182Z][INFO] config:project:get-registries --> 200 (5 ms)
-[2026-11-17T10:11:45.383Z][INFO] project:list-packages <-- Request received
+[2026-11-17T11:10:54.159Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-11-17T11:11:00.138Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-17T10:11:45.651Z][INFO] project:list-packages --> 200 (268 ms)
-[2026-11-17T10:11:54.296Z][INFO] packages:get-packageinfo <-- Request received
+[2026-11-17T11:11:00.442Z][INFO] project:list-packages --> 200 (305 ms)
+[2026-11-17T11:11:04.141Z][INFO] packages:get-packageinfo <-- Request received
 params: {
   "packageId": "com.ptc.vuforia.engine"
 }
-[2026-11-17T10:11:54.917Z][INFO] project:list-packages <-- Request received
+[2026-11-17T11:11:04.456Z][INFO] project:list-packages <-- Request received
 params: {}
-[2026-11-17T10:11:57.020Z][INFO] packages:get-packageinfo --> 200 (2724 ms)
-[2026-11-17T10:12:00.265Z][INFO] project:list-packages --> 200 (5348 ms)
+[2026-11-17T11:11:05.305Z][INFO] packages:get-packageinfo --> 200 (1164 ms)
+[2026-11-17T11:11:10.089Z][INFO] project:list-packages --> 200 (5633 ms)
