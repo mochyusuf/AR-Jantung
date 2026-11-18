@@ -72,12 +72,14 @@
     <Compile Include="Assets\Scripts\MateriData.cs" />
     <Compile Include="Assets\Scripts\ARController.cs" />
     <Compile Include="Assets\Scripts\RandomArray.cs" />
+    <Compile Include="Assets\VuforiaLicense.cs" />
     <Compile Include="Assets\Scripts\Soal.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\BoyerMoore.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Resources\alpha.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\ar_jantung.xml" />
   </ItemGroup>
   <ItemGroup>
