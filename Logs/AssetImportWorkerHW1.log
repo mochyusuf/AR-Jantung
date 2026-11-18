@@ -2522,3 +2522,260 @@ Total: 12.086600 ms (FindLiveObjects: 1.140900 ms CreateObjectMapping: 0.529100 
 Prepare: number of updated asset objects reloaded= 0
 EnvironmentDependencyValues requested are different than current active one (requested -> active):
   graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 31.06 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7090 unused Assets / (5.9 MB). Loaded Objects now: 8281.
+Memory consumption went from 438.0 MB to 432.1 MB.
+Total: 24.281200 ms (FindLiveObjects: 2.297200 ms CreateObjectMapping: 2.071800 ms MarkObjects: 12.874400 ms  DeleteObjects: 6.337200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 25.96 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7090 unused Assets / (6.3 MB). Loaded Objects now: 8281.
+Memory consumption went from 438.2 MB to 431.9 MB.
+Total: 22.439600 ms (FindLiveObjects: 1.658500 ms CreateObjectMapping: 1.466300 ms MarkObjects: 15.561400 ms  DeleteObjects: 3.330500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 27.95 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7090 unused Assets / (6.1 MB). Loaded Objects now: 8281.
+Memory consumption went from 438.5 MB to 432.4 MB.
+Total: 22.438200 ms (FindLiveObjects: 1.923400 ms CreateObjectMapping: 1.449700 ms MarkObjects: 15.084600 ms  DeleteObjects: 3.540400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-NXBV-9ND8-RJXT-WZ62-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-24T08:23:33Z
+[Licensing::Module] License group:
+  Id: 18966799463373-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-NXBV-9ND8-RJXT-WZ62-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-24T08:23:33Z
+[Licensing::Module] License group:
+  Id: 18966799463373-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 24.64 ms, found 10 plugins.
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.865 seconds
+Domain Reload Profiling: 4007ms
+	BeginReloadAssembly (554ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (1377ms)
+		LoadAssemblies (810ms)
+		TypeCache.Refresh (20ms)
+		AnalyzeDomain (415ms)
+			BuildScriptInfoCaches (401ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1867ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			BeforeProcessingInitializeOnLoad (327ms)
+			ProcessInitializeOnLoadAttributes (610ms)
+			ProcessInitializeOnLoadMethodAttributes (390ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 20.37 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7185 unused Assets / (6.5 MB). Loaded Objects now: 8285.
+Memory consumption went from 445.4 MB to 438.8 MB.
+Total: 18.412700 ms (FindLiveObjects: 1.884800 ms CreateObjectMapping: 1.734200 ms MarkObjects: 11.070200 ms  DeleteObjects: 3.293500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-18T11:53:35.4561276Z
+  Time since last request: 14826.38151049999942 seconds.
+  importAddress: GUID: 19d83e150f608a7468124b7820938769 - Path: Assets/Scripts/ARController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 19d83e150f608a7468124b7820938769 - Path: Assets/Scripts/ARController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 19d83e150f608a7468124b7820938769' -> (Import Result ID: '69c281fd75e74d45a07ce2d9daa7c2cc') in 0.197 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1f882476c5f207bc583c25537543f77 DependenciesID=ee924829d4464743a78411d6b7c792ea StaticDependenciesID=ea805317b9eb3dfdfedd367b83c7926b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-18T11:53:35.9552398Z
+  Time since last request: 0.262393 seconds.
+  importAddress: GUID: ea3d016ab68f0fa4d81154f2d529a4b2 - Path: Assets/Scenes/Splash/ReflectionProbe-0.exr - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ea3d016ab68f0fa4d81154f2d529a4b2 - Path: Assets/Scenes/Splash/ReflectionProbe-0.exr - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ea3d016ab68f0fa4d81154f2d529a4b2' -> (Import Result ID: 'c61420127059cf726b723410af25c35f') in 0.111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90cfaf299f9113e7214d4e68b0375846 DependenciesID=e3eaf5c9d6eb1101dd0bb434d84249f9 StaticDependenciesID=1499a1048e38668f32f911fb2616b73e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-18T11:53:36.1160149Z
+  Time since last request: 0.0225566 seconds.
+  importAddress: GUID: 631f57173c9754048af4afa3ad402602 - Path: Assets/Scenes/Splash/LightingData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 631f57173c9754048af4afa3ad402602 - Path: Assets/Scenes/Splash/LightingData.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 631f57173c9754048af4afa3ad402602' -> (Import Result ID: '250672f994470aced274500551bf1af8') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33cf528a114e227904c6886f73273fcc DependenciesID=0b86d8d8e6cbb1234418adc562d04dfe StaticDependenciesID=624759047ca30654040aac9c3c2eacbe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-18T11:53:36.2697018Z
+  Time since last request: 0.0660069 seconds.
+  importAddress: GUID: ae6b67c83ae54ee48b61e5030a77bfbc - Path: Assets/Scenes/Splash - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ae6b67c83ae54ee48b61e5030a77bfbc - Path: Assets/Scenes/Splash - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ae6b67c83ae54ee48b61e5030a77bfbc' -> (Import Result ID: '8cfd4014a132d16a187578e69b8287a2') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=589c5426bf48e1c194d9ea8773d9eb1e DependenciesID=3424168d072efd570ac79b6b71e75761 StaticDependenciesID=43edf15e040c82092d217bc03fb2b389 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 18.61 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (3.1 MB). Loaded Objects now: 8287.
+Memory consumption went from 433.2 MB to 430.1 MB.
+Total: 12.963100 ms (FindLiveObjects: 1.103500 ms CreateObjectMapping: 0.680600 ms MarkObjects: 9.792200 ms  DeleteObjects: 0.981700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 27.82 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.0 MB). Loaded Objects now: 8287.
+Memory consumption went from 433.4 MB to 430.4 MB.
+Total: 19.076200 ms (FindLiveObjects: 1.631200 ms CreateObjectMapping: 0.882500 ms MarkObjects: 15.285700 ms  DeleteObjects: 0.834500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Serialized file "Assets/Plugins/x86/DSVL.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/libARWrapper.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARWrapper.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/pthreadVC2.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86/ARvideo.dll.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/x86_64/libAR6.so.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Serialized file "Assets/Plugins/Android/support-v4-23.3.0.aar.meta" contains a PluginImporter object at version 1, below the supported minimum (2). Open and re-save the file to upgrade.
+Refreshing native plugins compatible for Editor in 24.46 ms, found 10 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7090 unused Assets / (6.4 MB). Loaded Objects now: 8287.
+Memory consumption went from 438.6 MB to 432.2 MB.
+Total: 22.637600 ms (FindLiveObjects: 1.823500 ms CreateObjectMapping: 1.638400 ms MarkObjects: 15.002200 ms  DeleteObjects: 3.737800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 264192
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

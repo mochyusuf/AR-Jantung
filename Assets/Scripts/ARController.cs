@@ -21,6 +21,8 @@ namespace Vuforia
             buttonInfo = GameManager.instance.mainMenu.buttonInfo;
             buttonInfo.SetActive(false);
             DetectDetail = false;
+
+            NotDetect();
         }
 
         // Update is called once per frame
@@ -34,16 +36,21 @@ namespace Vuforia
 
         public void Detect(string name)
         {
+            print(name);
+            Detected = true;
             DetectDetail = true;
             GameManager.instance.mainMenu.UI[14].SetActive(false);
+            GameManager.instance.mainMenu.buttonInfo.SetActive(true);
             switch (name)
             {
                 case "anemia":
+                    IndexDetectMarker = 0;
                     Disable();
                     Object[0].SetActive(true);
                     break;
 
                 case "jantung":
+                    IndexDetectMarker = 1;
                     switch (GameManager.instance.IndexDetailObject)
                     {
                         case -1:
@@ -87,6 +94,7 @@ namespace Vuforia
                     break;
 
                 case "otak":
+                    IndexDetectMarker = 2;
                     switch (GameManager.instance.IndexDetailObject)
                     {
                         case -1:
@@ -149,6 +157,7 @@ namespace Vuforia
                     break;
 
                 case "varises":
+                    IndexDetectMarker = 3;
                     switch (GameManager.instance.IndexDetailObject)
                     {
                         case -1:
@@ -213,6 +222,7 @@ namespace Vuforia
                 default:
                     break;
             }
+            GameManager.instance.IndexDetectMarker = IndexDetectMarker;
         }
 
         public void NotDetect()

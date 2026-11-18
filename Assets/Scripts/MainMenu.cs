@@ -958,55 +958,55 @@ public class MainMenu : MonoBehaviour
 
     public void DetailObjek(int index)
     {
-        //GameManager.instance.IndexDetailObject = index;
-        //Disable();
-        //UI[8].SetActive(true);
-        //UI[13].SetActive(true);
-        //switch (GameManager.instance.IndexDetectMarker)
-        //{
-        //    case 0:
-        //        break;
+        GameManager.instance.IndexDetailObject = index;
+        Disable();
+        UI[8].SetActive(true);
+        UI[13].SetActive(true);
+        switch (GameManager.instance.IndexDetectMarker)
+        {
+            case 0:
+                break;
 
-        //    case 1:
-        //        switch (index)
-        //        {
-        //            case 0:
-        //                GameManager.instance.controller.Disable();
-        //                GameManager.instance.controller.Object[4].SetActive(true);
-        //                break;
-        //        }
-        //        break;
+            case 1:
+                switch (index)
+                {
+                    case 0:
+                        GameManager.instance.controller.Disable();
+                        GameManager.instance.controller.Object[4].SetActive(true);
+                        break;
+                }
+                break;
 
-        //    case 2:
-        //        switch (index)
-        //        {
-        //            case 0:
-        //                GameManager.instance.controller.Disable();
-        //                GameManager.instance.controller.Object[5].SetActive(true);
-        //                break;
+            case 2:
+                switch (index)
+                {
+                    case 0:
+                        GameManager.instance.controller.Disable();
+                        GameManager.instance.controller.Object[5].SetActive(true);
+                        break;
 
-        //            case 1:
-        //                GameManager.instance.controller.Disable();
-        //                GameManager.instance.controller.Object[6].SetActive(true);
-        //                break;
-        //        }
-        //        break;
+                    case 1:
+                        GameManager.instance.controller.Disable();
+                        GameManager.instance.controller.Object[6].SetActive(true);
+                        break;
+                }
+                break;
 
-        //    case 3:
-        //        switch (index)
-        //        {
-        //            case 0:
-        //                GameManager.instance.controller.Disable();
-        //                GameManager.instance.controller.Object[7].SetActive(true);
-        //                break;
+            case 3:
+                switch (index)
+                {
+                    case 0:
+                        GameManager.instance.controller.Disable();
+                        GameManager.instance.controller.Object[7].SetActive(true);
+                        break;
 
-        //            case 1:
-        //                GameManager.instance.controller.Disable();
-        //                GameManager.instance.controller.Object[8].SetActive(true);
-        //                break;
-        //        }
-        //        break;
-        //}
+                    case 1:
+                        GameManager.instance.controller.Disable();
+                        GameManager.instance.controller.Object[8].SetActive(true);
+                        break;
+                }
+                break;
+        }
     }
 
     public void KembaliObjek()
@@ -1014,29 +1014,29 @@ public class MainMenu : MonoBehaviour
         Disable();
         UI[8].SetActive(true);
         UI[13].SetActive(false);
-        //switch (GameManager.instance.IndexDetectMarker)
-        //{
-        //    case 0:
-        //        break;
+        switch (GameManager.instance.IndexDetectMarker)
+        {
+            case 0:
+                break;
 
-        //    case 1:
-        //        GameManager.instance.controller.Disable();
-        //        GameManager.instance.controller.Object[1].SetActive(true);
-        //        UI[10].SetActive(true);
-        //        break;
+            case 1:
+                GameManager.instance.controller.Disable();
+                GameManager.instance.controller.Object[1].SetActive(true);
+                UI[10].SetActive(true);
+                break;
 
-        //    case 2:
-        //        GameManager.instance.controller.Disable();
-        //        GameManager.instance.controller.Object[2].SetActive(true);
-        //        UI[11].SetActive(true);
-        //        break;
+            case 2:
+                GameManager.instance.controller.Disable();
+                GameManager.instance.controller.Object[2].SetActive(true);
+                UI[11].SetActive(true);
+                break;
 
-        //    case 3:
-        //        GameManager.instance.controller.Disable();
-        //        GameManager.instance.controller.Object[3].SetActive(true);
-        //        UI[12].SetActive(true);
-        //        break;
-        //}
+            case 3:
+                GameManager.instance.controller.Disable();
+                GameManager.instance.controller.Object[3].SetActive(true);
+                UI[12].SetActive(true);
+                break;
+        }
         GameManager.instance.IndexDetailObject = -1;
     }
 

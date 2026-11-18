@@ -605,7 +605,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: Detect
         m_Mode: 5
@@ -620,7 +620,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: NotDetect
         m_Mode: 1
@@ -817,6 +817,64 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1497421955847558, guid: a403c3dab77846a46848156e78bfcc96, type: 3}
   m_PrefabInstance: {fileID: 793094713}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &939112903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 939112905}
+  - component: {fileID: 939112904}
+  m_Layer: 0
+  m_Name: ARController
+  m_TagString: ARController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &939112904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939112903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d83e150f608a7468124b7820938769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ARController
+  Detected: 0
+  DetectDetail: 0
+  buttonInfo: {fileID: 0}
+  IndexDetectMarker: 0
+  Object:
+  - {fileID: 1951351868}
+  - {fileID: 175297807}
+  - {fileID: 658371678}
+  - {fileID: 1527337812}
+  - {fileID: 2061520807}
+  - {fileID: 2035756987}
+  - {fileID: 793094715}
+  - {fileID: 566340111}
+  - {fileID: 1974366851}
+--- !u!4 &939112905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939112903}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 957.9, y: 510.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1039678698
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,7 +889,6 @@ GameObject:
   - component: {fileID: 1039678701}
   - component: {fileID: 1039678700}
   - component: {fileID: 1039678699}
-  - component: {fileID: 1039678705}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -983,32 +1040,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1039678705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039678698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19d83e150f608a7468124b7820938769, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ARController
-  Detected: 0
-  DetectDetail: 0
-  buttonInfo: {fileID: 0}
-  IndexDetectMarker: 0
-  Object:
-  - {fileID: 1951351868}
-  - {fileID: 175297807}
-  - {fileID: 658371678}
-  - {fileID: 1527337812}
-  - {fileID: 2061520807}
-  - {fileID: 2035756987}
-  - {fileID: 793094715}
-  - {fileID: 566340111}
-  - {fileID: 1974366851}
 --- !u!1 &1062524601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,7 +1135,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: Detect
         m_Mode: 5
@@ -1119,7 +1150,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: NotDetect
         m_Mode: 1
@@ -1253,7 +1284,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: Detect
         m_Mode: 5
@@ -1268,7 +1299,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: NotDetect
         m_Mode: 1
@@ -1481,7 +1512,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: Detect
         m_Mode: 5
@@ -1496,7 +1527,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039678705}
+      - m_Target: {fileID: 939112904}
         m_TargetAssemblyTypeName: Vuforia.ARController, Assembly-CSharp
         m_MethodName: NotDetect
         m_Mode: 1
@@ -1922,3 +1953,4 @@ SceneRoots:
   - {fileID: 586741565}
   - {fileID: 1039678704}
   - {fileID: 458527536}
+  - {fileID: 939112905}

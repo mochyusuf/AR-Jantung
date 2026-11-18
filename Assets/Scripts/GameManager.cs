@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Vuforia;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class GameManager : MonoBehaviour
     public MainMenu mainMenu;
     public int IndexDetectMarker;
     public int IndexDetailObject;
-    public Controller controller;
+    public ARController controller;
 
     private void Awake()
     {
@@ -46,10 +47,10 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         ActiveScene = scene.name;
-		if (ActiveScene == "AR") {
+		if (ActiveScene == "Vuforia") {
 			mainMenu.Disable ();
 			mainMenu.UI [8].SetActive (true);
-			controller = GameObject.FindWithTag ("Controller").GetComponent<Controller> ();
+			controller = GameObject.FindWithTag ("ARController").GetComponent<ARController> ();
 			IndexDetailObject = -1;
 		} else if (ActiveScene == "MainMenu") {
 			mainMenu.Disable ();
